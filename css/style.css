@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    }
+
+    :root{
+        --lime: #00FF00;
+        --gray1: #a39797;
+        --DarkMagenta: #8B008B;
+        --Red: #FF0000;
+        --navajo: #FFDEAD;
+        --burly: #DEB887;
+        --white: #FFFFFF;
+        --cornsilk: #FFF8DC;
+        --wheat: #F5DEB3;
+        --blanched: #FFEBCD;
+        --crimson: #DC143C;
+        --bisque: #FFE4C4;
+        --black: #000000;
+    }
+    /*links gerais*/
+     a {
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        text-transform: uppercase;
+        }
+
+        /*lista separada do header*/
+
+   .titulo2 {
+background-color: var(--navajo);
+text-align: center;
+font-family: "Raleway", cursive;
+color: var(--black);
+border-radius: 10px;
+margin: 25px;
+padding: 5px;
+font-family: "Sedan", cursive;
+}
+
+.link-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;;
+    list-style: none;
+}
+/*titulo principal*/
+.titulo-principal {
+text-align: center;
+font-size: 50px;
+font-family: "Sedan", cursive;
+margin: 10px;
+cursor: pointer;
+}
+
+.titulo-principal:hover {
+    color: var(--crimson);
+}
+
+.drink-list:hover {
+    color: var(--crimson);
+}
+.topo-do-site {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    
+    background-image: url(fundo.jpg);
+    background-size: 100%;
+}
+
+.image-container {
+    width: 250px;
+}
+
+.topo-do-site img {
+    width: 200px;
+    max-height: auto;
+}
+
+.banner-container-carrinho {
+        justify-content: flex-end;
+}
+
+/*PRINCIPAL*/
+
+.corpo {
+    background-color: var(--cornsilk);
+}
+
+.fotos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px,1fr ));
+}
+
+
+.fotos-container img {
+    width: 310px;
+    margin-left: 35px;
+    border-radius: 20px;
+    border: outset var(--bisque) 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px,1fr )); 
+}
+
+.titulo3 {
+    background-color: var(--crimson);
+    text-align: center;
+    color: var(--black);
+    border-radius: 10px;
+    margin: 25px;
+    padding: 5px;
+    font-family: "Sedan", cursive;
+    border: outset var(--black) 3px;
+    }
+.input-botao {
+  text-align: center;
+  
+}
