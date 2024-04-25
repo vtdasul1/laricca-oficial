@@ -72,7 +72,7 @@ cursor: pointer;
     display: flex;
     justify-content: space-between;
     
-    background-image: url(fundo.jpg);
+    background-image: url(funto-amadeirado.jpg)
     background-size: 100%;
 }
 
@@ -88,11 +88,15 @@ cursor: pointer;
 .banner-container-carrinho {
         justify-content: flex-end;
 }
+.lista img{
+    width: 60px;
+}
 
 /*PRINCIPAL*/
 
 .corpo {
     background-color: var(--cornsilk);
+    background-image: url(funto-amadeirado.jpg);
 }
 
 .fotos-container {
@@ -111,7 +115,7 @@ cursor: pointer;
 }
 
 .titulo3 {
-    background-color: var(--crimson);
+    background-color: var(--burly);
     text-align: center;
     color: var(--black);
     border-radius: 10px;
